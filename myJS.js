@@ -1,3 +1,4 @@
-function sayHello( s ){
-    alert('Hello, ' + s + '!');
+function dT(){
+    var d = new Date();
+    alert('Today is ' + d);
 }

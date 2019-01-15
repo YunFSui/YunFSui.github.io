@@ -34,8 +34,6 @@ main{
 
 aside{
     float: right;
-    /* margin-right: 1em; */
-    /* padding: 8px;  */
     width: 50%;
     background-color: white;
     text-align: center;
@@ -46,7 +44,7 @@ footer{
     overflow: hidden;
     padding: 5px;
     background-color: rgba(209, 207, 207, 0.94);
-    /* vertical-align: baseline; */
+    vertical-align: baseline;
     border-top: 3px solid rgba(102, 6, 6, 0.94); 
 }
 
@@ -54,10 +52,10 @@ div#main{
     text-align: center;
 }
 
-div#welcomeButton{
+div#time{
     text-align: center;
 }
 
-button#welcome{
+button#dateTime{
     float: center;
 }
