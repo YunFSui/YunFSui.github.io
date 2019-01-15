@@ -10,27 +10,32 @@
 </head>
 
 <body>
-    <header>
-        <h1>This is the head</h1>
-    </header>
+    <div class="wrapper">
+        <header>
+            <h1>Neque porro quisquam</h1>
+        </header>
 
-    <div class="content">
-    <main>
-        <div id="main">
-            <p>This is the text that contain with a link</p>
-            <a href="https://github.com/YunFSui/YunFSui.github.io" target="_blank">My git Pages repository</a>
-            <p>Now, tell me your name:<input id="inputName" /></p> 
+        <div class="content">
+        <main>
+            <div id="main">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec enim condimentum, dignissim quam eu, fermentum arcu. Integer at viverra leo. Duis pulvinar ornare quam non aliquet. Nam sollicitudin dui dui, ut fermentum turpis porta quis. Fusce ante nibh, auctor ut mollis sit amet, sodales vitae arcu. Fusce vitae neque lectus. Sed finibus velit risus, at vulputate dui dictum id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus pulvinar tempor lacus, eu varius ipsum aliquam sit amet. Vivamus tempor arcu a urna congue semper. Mauris vulputate vestibulum lectus in scelerisque. </p>
+                <p> Aenean eu velit pellentesque, dictum nisi in, imperdiet lacus. Cras et malesuada lectus. Aliquam porta eros at dolor volutpat facilisis. Maecenas aliquet a nulla vel ornare. Phasellus lobortis auctor ex vel eleifend. Pellentesque gravida convallis convallis. Maecenas et scelerisque sapien. Quisque ut dolor in purus efficitur vestibulum. Mauris ut nulla gravida nisi bibendum congue ac ut ipsum. </p>
+                <p> Nulla elementum turpis mi, eget elementum lacus vulputate a. Nullam feugiat semper massa eu ultricies. Vivamus sagittis ipsum libero, blandit mollis quam cursus non. Maecenas ut posuere velit, vitae cursus ante. Suspendisse iaculis lorem volutpat, laoreet est in, aliquam mi. Phasellus efficitur ultricies iaculis. Maecenas vel rhoncus turpis. Vivamus blandit pellentesque tellus eget ultrices. </p>
+                <p>Mauris tristique volutpat urna tincidunt posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent a tortor finibus, venenatis libero facilisis, dignissim sapien. Maecenas convallis lacus id erat blandit semper. Quisque tincidunt risus eu libero viverra, et interdum ligula convallis. Nam non massa iaculis, convallis lacus et, fermentum justo. Pellentesque laoreet, odio nec vestibulum sollicitudin, risus tortor pulvinar dui, at bibendum sapien mi accumsan eros. Quisque ac felis at velit suscipit placerat et eu urna. Quisque vehicula varius iaculis. Suspendisse cursus lacus nec mattis ullamcorper. Vivamus auctor, leo quis venenatis vulputate, tortor nisi consectetur dolor, laoreet aliquet ipsum erat nec nunc. Quisque interdum ipsum augue, ac fermentum arcu molestie a. Suspendisse in semper lorem, sed elementum magna. </p>
+                <p><a href="https://github.com/YunFSui/YunFSui.github.io" target="_blank">My git Pages repository</a>
+                 Now, tell me your name:<input id="inputName" /></p> 
+            </div>
+        </main>
+
+        <aside>
+            <img src="images/index_pic.jpg" alt="This is a Picture">
+        </aside>
         </div>
-    </main>
 
-    <aside>
-        <img src="images/index_pic.jpg" alt="This is a Picture">
-    </aside>
+        <footer>
+            <div id="welcomeButton">
+                <button onclick = "sayHello(inputName.value)" id="welcome">Click Me</button>
+            </div>
+        </footer>
     </div>
-
-    <footer>
-        <div id="welcomeButton">
-            <button onclick = "sayHello(inputName.value)" id="welcome">Click Me</button>
-        </div>
-    </footer>
 </body>

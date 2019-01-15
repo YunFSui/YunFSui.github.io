@@ -1,5 +1,16 @@
 /* this is for the git pages */
 
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 940px;
+    margin: 20px auto 10px auto;
+    background: rgba(238, 238, 238, 0.94);
+    overflow: hidden;
+}
+
 header{
     text-align: center;
     background: rgba(238, 238, 238, 0.94);
